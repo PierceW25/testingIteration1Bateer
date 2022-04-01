@@ -1,0 +1,9 @@
+img {
+    background: url("images/Screen Shot 2022-03-26 at 2.28.52 PM.jpg") no-repeat center center fixed;
+    width: 100%;
+    min-height: 100vh; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
