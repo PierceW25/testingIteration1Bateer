@@ -46,11 +46,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!--  End Google Tag Manager  -->
 </head>
 <header class="appPreviewHeader">
-  <img src="images/webclip.png" loading="lazy" width="75" height="75">
+  <a href="index.html"><img src="images/webclip.png" loading="lazy" width="75" height="75"></a>
 
   <div class="appPreviewBtns1">
     <div id="button3" onclick="toggle(this,'button3')">
-    <a href="apppreviewHome.html"><h4>&#x2302; Home</h4></a>
+    <a href="apppreviewHome.html"><img src="images/Screen Shot 2022-04-02 at 12.51.00 PM.jpg"><h4>Home</h4></a>
     </div>
     <div id="button4" onclick="toggle(this,'button4')">
       <a href="apppreviewProfile.html"><img src="images/Screen Shot 2022-03-31 at 11.56.19 PM.jpg"><p>Profile</p></a></div>
@@ -76,33 +76,59 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!--  End Google Tag Manager (noscript)  -->
   <script>
     // When the user clicks on <div>, open the popup
-    function popup() {
-      var popup = document.getElementById("myPopup");
+      function popup() {
+      if (screen.width <= 764) {
+        var popup = document.getElementById("myPopup");
+      } else {
+        var popup = document.getElementById("myPopup2");
+      }
       popup.classList.toggle("show");
     }
     </script>
     <div class="popup" onclick="popup()">
-        <span class="popuptext" id="myPopup">
-          <div class="popupBackground">
-            <div class="textNxNButtonsBox">
-            <div class="exitBtn popup">
-                <img src="images/Screen Shot 2022-03-27 at 5.07.54 PM.jpg" width="38px" height="33px">
-            </div>
-            <div class="popupTextNBtns">
-                <h1>Download our app</h1>
-                <h5>Get Early Access and setup your account now!</h5>
-                <div class="downloadBtns">
-                    <a href="app.html"><img src="images/Screen Shot 2022-03-27 at 3.59.43 PM.jpg" width="152px" height="50px" border-radius="4px" margin-right="15px"></a>
-                    <a href="app.html"><img src="images/Screen Shot 2022-03-27 at 4.01.50 PM.jpg" width="152px" height="50px" border-radius="4px" margin-right="15px"></a>
+      <span class="popuptext" id="myPopup">
+        <div class="popupBackground">
+          <div class="textNxNButtonsBox">
+          <div class="exitBtn popup">
+              <img src="images/Screen Shot 2022-03-27 at 5.07.54 PM.jpg" width="38px" height="33px">
+          </div>
+          <div class="popupTextNBtns">
+              <h1>Download our app</h1>
+              <h5>Get Early Access and setup your account now!</h5>
+              <div class="downloadBtns">
+                  <a href="app.html"><img src="images/Screen Shot 2022-03-27 at 3.59.43 PM.jpg" width="152px" height="50px" border-radius="4px" margin-right="15px"></a>
+                  <a href="app.html"><img src="images/Screen Shot 2022-03-27 at 4.01.50 PM.jpg" width="152px" height="50px" border-radius="4px" margin-right="15px"></a>
+              </div>
+          </div>
+        </div>
+          <div class="popUpImg">
+              <img src="images/Screen Shot 2022-03-26 at 10.05.10 PM.jpg">
+          </div>
+        </div>
+      </span>
+  </div>
+    <div class="popup" onclick="popup()">
+      <span class="popuptext2" id="myPopup2">
+        <div class="exitBtn2">
+          <a src="#"><img src="images/Screen Shot 2022-03-28 at 7.33.00 PM.jpg"></a>
+        </div>
+          <div class="popup2Background">
+              <div class="popupTextNBtns2">
+                <div class="popupMessage">
+                  <h1>Download our app</h1>
+                  <h4>Get Early Access and setup your account now!</h4>
                 </div>
-            </div>
+                  <div class="downloadBtns2">
+                      <a src="#"><img src="images/Screen Shot 2022-03-27 at 3.59.43 PM.jpg"></a>
+                      <a src="#"><img src="images/Screen Shot 2022-03-27 at 4.01.50 PM.jpg"></a>
+                  </div>
+              </div>
           </div>
-            <div class="popUpImg">
-                <img src="images/Screen Shot 2022-03-26 at 10.05.10 PM.jpg">
-            </div>
+          <div class="popUpImg2">
+            <img src="images/Screen Shot 2022-03-27 at 9.51.50 PM_ccexpress.png">
           </div>
-        </span>
-    </div>
+      </span>
+  </div>
   <div class="appPrevProfSummary">
     <img src="images/Screen Shot 2022-03-29 at 9.21.20 PM.jpg">
     <div class="funkyImg">

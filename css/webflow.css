@@ -1896,6 +1896,27 @@ textarea.w-select {
   margin-left: 10px;
 }
 
+.appPreviewBtns1 #button3 a {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: baseline;
+}
+
+.appPreviewBtns1 #button3 h4 {
+  color: black;
+  opacity: 0.5;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 4px;
+}
+
+.appPreviewBtns1 #button3 img {
+  width: 30px;
+  height: 38px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
 .appPreviewBtns1 #button2 a {
   display: flex;
   flex-wrap: nowrap;
@@ -1920,6 +1941,7 @@ textarea.w-select {
 #button3 h4 {
   color: black;
   opacity: 0.5;
+  margin-top: 4px;
 }
 
 .appPreviewBtns1 #button4 a {
@@ -1941,11 +1963,9 @@ textarea.w-select {
   margin-left: 10px;
 }
 #button1:hover {
-  background-color: #19ABFF;
   opacity: .8;
 }
 #button2:hover {
-  background-color: #19ABFF;    ;
   opacity: .8;
 }
 #button1.selected, #button2.selected {
@@ -2373,6 +2393,10 @@ textarea.w-select {
   margin-right: 5px;
 }
 
+.popupTextNBtns .downloadBtns img {
+  border-radius: 17px;
+}
+
 .popupTextNBtns2 .downloadBtns2 {
   margin-top: -50px;
   display: flex;
@@ -2795,6 +2819,18 @@ textarea.w-select {
     font-size: 24px;
   }
 
+  .appPreviewBtns1 #button1 img {
+    width: 24px;
+    height: 32px;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+
+  .appPreviewBtns1 #button1 h4 {
+    margin-top: 14px;
+    margin-left: 2px;
+  }
+
   #button2 {
     width: 70px;
     height: 30px;
@@ -2802,24 +2838,41 @@ textarea.w-select {
     font-size: 24px;
   }
 
-  #button3 {
+  .appPreviewBtns1 #button2 p {
+    margin-left: 2px;
+  }
+
+  .appPreviewBtns1 #button3 {
     width: 95px;
     height: 45px;
     margin-top: 15px;
     font-size: 24px;
   }
 
-  #button4 {
-    width: 70px;
-    height: 30px;
+  .appPreviewBtns1 #button4 {
+    width: 95px;
+    height: 45px;
     margin-top: 15px;
     font-size: 24px;
+  }
+
+  .appPreviewBtns1 #button4 img {
+    width: 28px;
+    height: 32px;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+
+  .appPreviewBtns1 #button4 h4 {
+    margin-top: 14px;
+    margin-left: 2px;
   }
 
   .appPreviewBellnProfileImages {
     width: 100px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 30px;
+    margin-right: -20px;
     display: flex;
   }
   
