@@ -2405,9 +2405,15 @@ textarea.w-select {
 
 .popupTextNBtns2 .downloadBtns2 a { 
   margin-right: 5px;
+  z-index: 20;
 }
 
 .downloadBtns a:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.downloadBtns2 a:hover {
   cursor: pointer;
   opacity: 0.8;
 }
@@ -2426,7 +2432,7 @@ textarea.w-select {
 .exitBtn2 {
   float: right;
   margin-right: 110px;
-  margin-top: 300px;
+  margin-top: 100px;
 }
 
 .exitBtn2 img {
