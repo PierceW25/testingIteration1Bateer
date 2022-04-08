@@ -1810,6 +1810,7 @@ textarea.w-select {
 }
 
 /* custom css for App Preview */
+
 #button1 {
   width: 104px;
   height: 48px;
@@ -2485,6 +2486,85 @@ textarea.w-select {
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
+}
+
+/*Blog CSS*/
+.blogPageContainer {
+  width: 100%;
+  display: flex;
+}
+
+.blogPostsContainer {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.blogPostsContainer h1 {
+  opacity: 0.8;
+}
+
+.blogPosts {
+  display: flex;
+  height: 450px;
+  width: 60%;
+  justify-content: space-between;
+  margin: 60px auto auto auto;
+}
+
+.blogPost {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  margin-bottom: -80px;
+}
+
+.blogPost img {
+  width: 80%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.blogBodyContainer {
+  text-align: left;
+  padding-top: 200px;
+  padding-bottom: 75px;
+  margin: auto auto auto 200px;
+  width: 56%;
+}
+
+.blogBodyContainer img {
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+.blogBodyContainer p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+.sideScrollBlogs {
+  padding-top: 390px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 430px;
+  height: 1000px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.scrollBlog {
+  height: 260px;
+  width: 400px;
+  background-color: #E2E2E2;
+  border-radius: 5px;
+}
+
+.scrollBlog img {
+  width: 360px;
+  padding-top: 10px;
 }
 
 @media screen and (max-width: 1484px) {
