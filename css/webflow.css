@@ -2274,6 +2274,10 @@ textarea.w-select {
 }
 
 /* The actual popup (appears on top) */
+.mobileBlogLinks {
+  display: none;
+}
+
 .popup .popuptext {
   visibility: hidden;
   position: fixed;
@@ -2499,13 +2503,9 @@ textarea.w-select {
   text-align: center;
 }
 
-.blogPostsContainer h1 {
-  opacity: 0.8;
-}
-
 .blogPosts {
   display: flex;
-  height: 450px;
+  height: 100px;
   width: 60%;
   justify-content: space-between;
   margin: 60px auto auto auto;
@@ -2515,7 +2515,6 @@ textarea.w-select {
   width: 300px;
   height: 250px;
   text-align: center;
-  margin-bottom: -80px;
 }
 
 .blogPost img {
@@ -2528,7 +2527,7 @@ textarea.w-select {
   text-align: left;
   padding-top: 200px;
   padding-bottom: 75px;
-  margin: auto auto auto 200px;
+  margin: auto auto auto 100px;
   width: 56%;
 }
 
@@ -2551,14 +2550,13 @@ textarea.w-select {
   justify-content: center;
   width: 430px;
   height: 1000px;
-  margin-right: 40px;
+  margin-right: 100px;
   text-align: center;
 }
 
 .scrollBlog {
   height: 260px;
   width: 400px;
-  background-color: #E2E2E2;
   border-radius: 5px;
 }
 
@@ -2569,6 +2567,79 @@ textarea.w-select {
 
 @media screen and (max-width: 1484px) {
 
+  .blogPageContainer {
+    width: 100%;
+    display: flex;
+  }
+  
+  .blogPostsContainer {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .blogPosts {
+    display: flex;
+    height: 450px;
+    width: 88%;
+    justify-content: space-between;
+    margin: 60px auto auto auto;
+  }
+  
+  .blogPost {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: -80px;
+  }
+  
+  .blogPost img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .blogBodyContainer     {
+    text-align: left;
+    padding-top: 200px;
+    padding-bottom: 75px;
+    margin: auto auto auto 20px;
+    width: 56%;
+  }
+  
+  .blogBodyContainer img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  .blogBodyContainer p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+  
+  .sideScrollBlogs {
+    padding-top: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 330px;
+    height: 1000px;
+    margin-right: 35px;
+    text-align: center;
+  }
+  
+  .scrollBlog {
+    height: 260px;
+    width: 400px;
+    border-radius: 5px;
+  }
+  
+  .scrollBlog img {
+    width: 300px;
+    padding-top: 10px;
+  }
+  
   .popup .popup2Background {
     height: 42%;
   }
@@ -2636,6 +2707,48 @@ textarea.w-select {
 }
 @media screen and (max-width: 1058px) {
 
+  .blogBodyContainer     {
+    text-align: left;
+    padding-top: 130px;
+    padding-bottom: 75px;
+    margin: auto auto auto 20px;
+    width: 56%;
+  }
+  
+  .blogBodyContainer img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  .blogBodyContainer p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+  
+  .sideScrollBlogs {
+    padding-top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 260px;
+    height: 1000px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  .scrollBlog {
+    height: 260px;
+    width: 400px;
+    border-radius: 5px;
+  }
+  
+  .scrollBlog img {
+    width: 260px;
+    padding-top: 10px;
+  }
+
   .popup .popup2Background {
     height: 36%;
   }
@@ -2695,6 +2808,35 @@ textarea.w-select {
 
 @media screen and (max-width: 764px) {
 
+  .mobileBlogLinks {
+    display: flex;
+    flex-wrap: wrap;
+    width: 99%;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .mobileScrollBlog {
+    padding-bottom: 40px;
+    margin: auto;
+  }
+  
+  .mobileScrollBlog img {
+    width: 80%;
+  }
+
+  .blogBodyContainer     {
+    text-align: left;
+    padding-top: 130px;
+    padding-bottom: 75px;
+    margin: auto auto auto 20px;
+    width: 96%;
+  }
+
+  .sideScrollBlogs {
+    display: none;
+  }
+
   .appPrevProfSummary {
     width: 97%;
   }
@@ -2728,7 +2870,22 @@ textarea.w-select {
     margin-left: 7%;
   }
 
-  
+  .blogPosts {
+    flex-wrap: wrap;
+    height: 850px;
+  }
+
+  .blogPost {
+    margin: auto;
+  }
+
+  .blogBodyContainer     {
+    text-align: left;
+    padding-top: 130px;
+    padding-bottom: 75px;
+    margin-left: 40px;
+    width: 98%;
+  }
 
   .popup .popupTextNBtns {
     justify-content: space-between;
