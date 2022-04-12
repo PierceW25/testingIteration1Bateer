@@ -2413,6 +2413,10 @@ textarea.w-select {
   z-index: 20;
 }
 
+.popupTextNBtns2 .downloadBtns2 img {
+  border-radius: 17px;
+}
+
 .downloadBtns a:hover {
   cursor: pointer;
   opacity: 0.8;
