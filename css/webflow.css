@@ -2499,6 +2499,7 @@ textarea.w-select {
 /*Blog CSS*/
 .blogPageContainer {
   width: 100%;
+  overflow-x: hidden;
   display: flex;
 }
 
