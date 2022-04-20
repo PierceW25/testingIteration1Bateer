@@ -2537,15 +2537,24 @@ textarea.w-select {
 }
 
 .blogBodyContainer img {
-  margin: auto;
+  margin: auto auto 20px auto;
   width: 100%;
   height: auto;
+}
+
+.blogBodyContainer h2 {
+  margin-bottom: -22px;
 }
 
 .blogBodyContainer p {
   margin-top: 50px;
   margin-bottom: 50px;
-  font-size: 25px;
+  font-size: 18px;
+}
+
+.blogBodyContainer ul {
+  margin-top: -20px;
+  margin-bottom: 15px;
 }
 
 .sideScrollBlogs {
