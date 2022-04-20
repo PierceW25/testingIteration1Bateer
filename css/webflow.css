@@ -2554,6 +2554,7 @@ textarea.w-select {
   margin-bottom: 50px;
   font-size: 18px;
   text-align: left;
+  line-height: 1.4;
 }
 
 .blogBodyContainer ul {
