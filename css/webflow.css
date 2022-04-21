@@ -2861,6 +2861,7 @@ textarea.w-select {
   .blogPosts {
     flex-wrap: wrap;
     height: 850px;
+    width: 90%;
   }
 
   .blogPost {
