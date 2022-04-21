@@ -2598,7 +2598,7 @@ textarea.w-select {
 
 .sideScrollBlogs {
   display: flex;
-  width: 85%;
+  width: 75%;
 }
   .popup .popup2Background {
     height: 42%;
@@ -2672,7 +2672,7 @@ textarea.w-select {
 }
 
 .sideScrollBlogs {
-  width: 95%;
+  width: 90%;
 }
 
  /* .blogBodyContainer     {
@@ -2794,14 +2794,31 @@ textarea.w-select {
   }
 
   .blogPageContainer {
-    width: auto;
+    width: 94%;
   }
 
   .blogBodyContainer     {
     text-align: left;
     padding-top: 130px;
     padding-bottom: 75px;
-    width: 96%;
+    margin-left: -30px;
+    width: 100%;
+  }
+
+  .blogBodyContainer img {
+    height: 280px;
+  }
+
+  .blogBodyContainer p {
+    width: 90%;
+  }
+
+  .blogBodyContainer ul {
+    width: 90%;
+  }
+
+  .blogBodyContainer li {
+    margin-bottom: 10px;
   }
 
   .sideScrollBlogs {
@@ -2842,18 +2859,12 @@ textarea.w-select {
   }
 
   .blogPosts {
-    width: 100%;
     flex-wrap: wrap;
     height: 850px;
   }
 
   .blogPost {
     margin: auto;
-    width: 78%;
-  }
-
-  .blogPost img {
-    width: 100%;
   }
 
   .blogBodyContainer     {
@@ -2861,12 +2872,7 @@ textarea.w-select {
     padding-top: 130px;
     padding-bottom: 75px;
     margin-left: 40px;
-    margin-right: 20px;
-    width: auto;
-  }
-
-  .blogBodyContainer img {
-    height: 260px;
+    width: 98%;
   }
 
   .popup .popupTextNBtns {
