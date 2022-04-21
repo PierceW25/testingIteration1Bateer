@@ -2856,20 +2856,11 @@ textarea.w-select {
     width: 100%;
   }
 
-  #blogContainer {
-    width: auto;
-  }
-
-  .blogPageContainer {
-    width: auto;
-    scale: 1.1;
-  }
-
   .blogBodyContainer     {
     text-align: left;
-    padding-top: 280px;
+    padding-top: 130px;
     padding-bottom: 75px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
     width: auto;
   }
