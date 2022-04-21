@@ -2863,7 +2863,7 @@ textarea.w-select {
     padding-top: 130px;
     padding-bottom: 75px;
     margin-left: 30px;
-    width: 92%;
+    width: auto;
   }
 
   .blogBodyContainer img {
