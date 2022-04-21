@@ -2793,6 +2793,10 @@ textarea.w-select {
     width: 80%;
   }
 
+  .blogPageContainer {
+    width: auto;
+  }
+
   .blogBodyContainer     {
     text-align: left;
     padding-top: 130px;
@@ -2847,7 +2851,11 @@ textarea.w-select {
   }
 
   #blogContainer {
-    width: 100%;
+    width: auto;
+  }
+
+  .blogPageContainer {
+    width: auto;
   }
 
   .blogBodyContainer     {
