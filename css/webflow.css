@@ -2856,6 +2856,7 @@ textarea.w-select {
 
   .blogPageContainer {
     width: auto;
+    scale: 1.1;
   }
 
   .blogBodyContainer     {
