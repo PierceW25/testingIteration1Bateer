@@ -2842,12 +2842,18 @@ textarea.w-select {
   }
 
   .blogPosts {
+    width: 100%;
     flex-wrap: wrap;
     height: 850px;
   }
 
   .blogPost {
     margin: auto;
+    width: 78%;
+  }
+
+  .blogPost img {
+    width: 100%;
   }
 
   #blogContainer {
