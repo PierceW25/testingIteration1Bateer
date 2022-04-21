@@ -2866,6 +2866,11 @@ textarea.w-select {
 
   .blogPost {
     margin: auto;
+    width: 100%;
+  }
+  
+  .blogPost img {
+    width: 100%;
   }
 
   .blogBodyContainer     {
